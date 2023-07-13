@@ -8,6 +8,7 @@
 .logo{
     width: 128px;
     height: 70px;
+
 }
 .hero123{
     position: absolute;
@@ -233,7 +234,7 @@ p {
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1 {
+#hero h1{
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -249,16 +250,16 @@ p {
 	animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
-	animation: text_reveal_name 0.5s ease forwards;
-	animation-delay: 3s;
+animation: text_reveal_name 0.5s ease forwards;
+animation-delay: 3s;
 }
 #hero h1 span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 0;
-	background-color: crimson;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 0;
+background-color: crimson;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -266,10 +267,10 @@ p {
 	animation-delay: 0.5s;
 }
 #hero h1:nth-child(2) span {
-	animation-delay: 1.5s;
+animation-delay: 1.5s;
 }
 #hero h1:nth-child(3) span {
-	animation-delay: 2.5s;
+animation-delay: 2.5s;
 }
 
 /* End Hero Section */
@@ -597,6 +598,8 @@ p {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
+
+	
 	/* End Services Section */
 
 	/* Project */
